@@ -39,6 +39,7 @@ export default{
 </script>
 
 <template>
+    <h1>Primo Snack</h1>
 <button @click="refresh()" v-show="numbers.length > 0">refresh</button>
 <label for="length">array length</label>
 <input :readonly="numbers.length > 0" @keyup.enter="generateArray()" type="number" name="length" id="length" v-model="arrayLength">
